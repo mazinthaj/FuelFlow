@@ -1,4 +1,4 @@
-# FuelFlow - A Fuel Station Management System
+# FuelFlow - Fuel Station Management System
 
 A web-based solution for petrol station management, catering to administrators, managers, and the public. This system monitors daily sales and fuel levels across multiple stations, providing real-time data and management tools.
 
@@ -38,19 +38,9 @@ A web-based solution for petrol station management, catering to administrators, 
     ```bash
     npm install cookie-parser express express-fileupload jimp mongodb nodemailer sharp
     ```
-<<<<<<< HEAD
 
 4.  Set up your MongoDB database. Sample JSON files for database creation are included in the `json` folder.
 5.  **Important:** After setting up the MongoDB database, update the database connection string in `persistence.js` (line 12) with your actual connection details.
-=======
-    or
-    ```bash
-    npm install
-    ```
-
-5.  Set up your MongoDB database. Sample JSON files for database creation are included in the `json` folder.
-6.  **Important:** After setting up the MongoDB database, update the database connection string in `persistence.js` (line 12) with your actual connection details.
->>>>>>> 47ae1bad2eb5867197348836dfb0c014b909fd16
 
 ## Usage
 
@@ -94,4 +84,3 @@ After completing the installation steps and setting up the database:
 *   **Running the Application:**
     ![Running FuelFlow](screenshots/run.png)
     *   Description: This screenshot demonstrates how to run the application using the command `node htmlpresentation.js` in the terminal.
-

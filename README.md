@@ -38,9 +38,13 @@ A web-based solution for petrol station management, catering to administrators, 
     ```bash
     npm install cookie-parser express express-fileupload jimp mongodb nodemailer sharp
     ```
+    or
+    ```bash
+    npm install
+    ```
 
-4.  Set up your MongoDB database. Sample JSON files for database creation are included in the `json` folder.
-5.  **Important:** After setting up the MongoDB database, update the database connection string in `persistence.js` (line 12) with your actual connection details.
+5.  Set up your MongoDB database. Sample JSON files for database creation are included in the `json` folder.
+6.  **Important:** After setting up the MongoDB database, update the database connection string in `persistence.js` (line 12) with your actual connection details.
 
 ## Usage
 
